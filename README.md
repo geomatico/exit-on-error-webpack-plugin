@@ -15,7 +15,7 @@ npm install exit-on-error-webpack-plugin --save-dev
 Add plugin to `webpack.config.js`:
 
 ```js
-const ExitOnErrorPlugin = require('./exit-on-error-webpack-plugin');
+const ExitOnErrorPlugin = require('exit-on-error-webpack-plugin');
 
 module.exports = {
   // ...
@@ -27,7 +27,7 @@ module.exports = {
 Or, if to be applied only on karma-webpack, add it to `karma.config.js`:
 
 ```js
-const ExitOnErrorPlugin = require('./exit-on-error-webpack-plugin');
+const ExitOnErrorPlugin = require('exit-on-error-webpack-plugin');
 const webpackConfig = require('../webpack.config.js');
 
 module.exports = function() {
