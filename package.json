@@ -1,6 +1,6 @@
 {
   "name": "exit-on-error-webpack-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin that exits the current process in case of webpack error",
   "main": "index.js",
   "scripts": {
